@@ -1,0 +1,23 @@
+plugins {
+    id 'application'
+    id 'org.openjfx.javafxplugin' version '0.1.0'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.openjfx:javafx-controls:21'
+    implementation 'org.openjfx:javafx-graphics:21'
+    implementation 'org.openjfx:javafx-base:21'
+}
+
+javafx {
+    version = "21"
+    modules = ['javafx.controls']
+}
+
+application {
+    mainClass = 'src.main.java.Snake' // Replace with your main class
+}

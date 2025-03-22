@@ -1,3 +1,5 @@
+package test_hello;
+
 import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.scene.control.Label;
